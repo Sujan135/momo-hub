@@ -1,0 +1,44 @@
+.app__gallery {
+    display: flex;
+    flex-direction: column; 
+
+    background-color:aliceblue;
+}
+
+.app__gallery-info h1 {
+    font-size: 120px;
+    padding: 0 6rem;
+
+}
+
+.app__gallery-info p {
+    margin: 1rem 8rem;
+    padding: 0 3rem;
+    color: rgb(173, 171, 171);
+    
+
+}
+
+.app__gallery-varieties {
+    display: "flex";
+    flex-direction: "row";
+    width: "100%";
+    column-gap: "5px";
+
+    border: "1px solid black";
+    flex-grow: "1",
+}
+
+.app__img {
+    display: flex;
+    column-gap: 3px;
+    overflow-x: scroll;
+    max-width: 1000px;
+}
+
+.app__img img {
+    height: 250px;
+    cursor: pointer;
+}
+
+

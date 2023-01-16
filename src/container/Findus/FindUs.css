@@ -1,0 +1,27 @@
+.app__wrapper-content h1 {
+    margin: 6rem 9rem;
+}
+
+.app__gallery-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__gallery-input p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.app__wrapper_img img {
+    height: 60%;
+    width: 50%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,46 @@
+.app__header {
+  background-color: var(--color-white);
+}
+
+.app__header h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 120px;
+}
+
+.app__header-info {
+    margin-top: 2rem;
+}
+
+.app__header-info p {
+  color: burlywood;
+}
+
+.app__header-info input {
+    width: 350px;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-family: var(--font-base);
+    color: var(--color-black);
+
+    margin-right: 2rem;
+    padding: 1.5rem 1rem;
+    background: var(--color-white);
+    font-size: 1.2em;
+}
+
+.app__header-info button {
+    width: 130px;
+    height: 63px;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px 0px 0px 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.app__header-info button:hover {
+  background-color: var(--color-golden);
+}

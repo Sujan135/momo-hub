@@ -1,0 +1,38 @@
+.app__aboutUs {
+    background-color: burlywood;
+    position: relative;
+}
+
+.app__aboutus-content_about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.app__aboutus-links {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-top: 2rem;
+    padding: 1rem 4rem;
+    
+}
+
+.app__aboutus-links li {
+    margin: 1rem;
+    cursor: pointer;
+
+}
+
+.app__aboutus-links li:hover {
+    color: var(--color-black);
+}
+
+.app__aboutus-img img {
+    margin-top: 2rem;
+    float: right;
+}
